@@ -1,0 +1,46 @@
+.main-nav__list{
+    display:flex;
+	list-style:none;
+	width:40%;
+	
+}
+
+.main-nav__item{
+    margin-right:5%;
+}
+.main-nav__item:nth-child(3){
+    margin-left:6%;
+	position:relative;
+}
+
+.main-nav__item:nth-child(3)::before{
+    content:"";
+	position:absolute;
+	height:23px;
+	width:20px;
+	top:0px;
+	left:-20px;
+	background-image:url("https://static.gdeetotdom.ru/skin/ged6/img/ico/header-icons.png");
+	background-position:0px 23px;
+}
+
+.main-nav__link{
+    text-decoration:none;
+    font-size:16px;
+	color:white;
+	font-weight:700;
+}
+.main-nav__link--dotted{
+border-bottom:1px dotted white;
+}
+
+
+.main-nav__link--special{
+color:#e16e42;
+}
+
+.main-nav__link--new-build{
+color:#ffcc00;
+border-bottom:1px solid #ffcc00;
+
+}
